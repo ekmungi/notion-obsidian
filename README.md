@@ -24,11 +24,11 @@ separately. Obsidian Sync copies the theme to your other devices with the fonts 
 
 The theme works with the [Style Settings](https://github.com/mgmeyers/obsidian-style-settings)
 plugin. With the plugin installed, open **Settings → Style Settings → Notion Obsidian visual
-control settings** to change the body width, the body font, the interface font size, heading
-sizes and several layout toggles.
+control settings** to change the body width, the body font, the interface font size, the
+Settings window font size, heading sizes and several layout toggles.
 
-The defaults are a 1280px body width, Fira Sans as the body font, a 0.825rem interface font, and
-headings at 1.8, 1.4, 1.3 and 1.2rem for H1 to H4.
+The defaults are a 1280px body width, Fira Sans as the body font, a 0.825rem interface font,
+0.95rem text in the Settings window, and headings at 1.8, 1.4, 1.3 and 1.2rem for H1 to H4.
 
 ## Credits and licences
 
