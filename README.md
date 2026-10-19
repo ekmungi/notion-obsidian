@@ -14,8 +14,11 @@ Notion Obsidian is an Obsidian theme that makes notes look and read like Notion.
 ## Install
 
 1. Create a folder named `Notion Obsidian` inside your vault's `.obsidian/themes/` folder.
-2. Copy `theme.css`, `manifest.json` and the `fonts` folder into it.
+2. Copy `theme.css` and `manifest.json` into it.
 3. In Obsidian, open **Settings → Appearance → Themes** and select **Notion Obsidian**.
+
+The fonts are built into `theme.css`, so they display on any computer without being installed
+separately. Obsidian Sync copies the theme to your other devices with the fonts included.
 
 ## Settings
 
@@ -31,4 +34,6 @@ headings at 1.8, 1.4, 1.3 and 1.2rem for H1 to H4.
 
 - The theme is based on Obsidianotion by Diego Eis, which is released under the Unlicense.
 - Fira Sans, Fira Code, Source Sans 3 and Nunito Sans are distributed under the SIL Open Font
-  License 1.1. Each family's licence text is in the `fonts` folder.
+  License 1.1. They are embedded in `theme.css` unmodified, and the licence text is repeated at
+  the top of the embedded fonts section. The `fonts` folder holds the original font files and
+  each family's licence file. The theme does not load that folder.
